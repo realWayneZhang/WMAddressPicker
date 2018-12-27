@@ -3,7 +3,7 @@
 ![示例gif](https://github.com/WinsonCheung/WMAddressPicker/blob/master/WMAddressPicker.gif)
 
 ## 说明
-需依赖 HandyJSON（用于解析地址 json 数据） 和 IBAnimatable（模态控制器），如何不想导入 IBAnimatable，可自行写模态转场动画
+需依赖 HandyJSON（用于解析地址 json 数据） 和 IBAnimatable（模态控制器），如果不想导入 IBAnimatable，可自行写模态转场动画
 （IBAnimatable 框架的强大，超乎你的想象）
 
 ## 使用
