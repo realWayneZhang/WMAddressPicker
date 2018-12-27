@@ -12,6 +12,15 @@
 		2DA6F01821D51319007DD298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA6F01621D51319007DD298 /* Main.storyboard */; };
 		2DA6F01A21D5131A007DD298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA6F01921D5131A007DD298 /* Assets.xcassets */; };
 		2DA6F01D21D5131A007DD298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA6F01B21D5131A007DD298 /* LaunchScreen.storyboard */; };
+		2DA6F02A21D5146C007DD298 /* WMAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA6F02521D5146C007DD298 /* WMAddress.swift */; };
+		2DA6F02B21D5146C007DD298 /* WMAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DA6F02621D5146C007DD298 /* WMAddressCell.xib */; };
+		2DA6F02C21D5146C007DD298 /* divisions.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DA6F02721D5146C007DD298 /* divisions.json */; };
+		2DA6F02D21D5146C007DD298 /* WMAddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA6F02821D5146C007DD298 /* WMAddressCell.swift */; };
+		2DA6F02E21D5146C007DD298 /* WMAddressPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA6F02921D5146C007DD298 /* WMAddressPicker.swift */; };
+		2DA6F03021D514D9007DD298 /* WMAddressPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DA6F02F21D514D9007DD298 /* WMAddressPicker.xib */; };
+		2DA6F03321D51B8A007DD298 /* address_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA6F03121D51B8A007DD298 /* address_selected@2x.png */; };
+		2DA6F03421D51B8A007DD298 /* address_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA6F03221D51B8A007DD298 /* address_selected@3x.png */; };
+		4037839E8BF70476C5C8FAE6 /* Pods_WMAddressPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832E6E71D3C6EFE13C89559A /* Pods_WMAddressPicker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,17 @@
 		2DA6F01921D5131A007DD298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DA6F01C21D5131A007DD298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DA6F01E21D5131A007DD298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA6F02521D5146C007DD298 /* WMAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMAddress.swift; sourceTree = "<group>"; };
+		2DA6F02621D5146C007DD298 /* WMAddressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAddressCell.xib; sourceTree = "<group>"; };
+		2DA6F02721D5146C007DD298 /* divisions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = divisions.json; sourceTree = "<group>"; };
+		2DA6F02821D5146C007DD298 /* WMAddressCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMAddressCell.swift; sourceTree = "<group>"; };
+		2DA6F02921D5146C007DD298 /* WMAddressPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMAddressPicker.swift; sourceTree = "<group>"; };
+		2DA6F02F21D514D9007DD298 /* WMAddressPicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WMAddressPicker.xib; sourceTree = "<group>"; };
+		2DA6F03121D51B8A007DD298 /* address_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "address_selected@2x.png"; sourceTree = "<group>"; };
+		2DA6F03221D51B8A007DD298 /* address_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "address_selected@3x.png"; sourceTree = "<group>"; };
+		654ADE3F3B2E85D93CA2D761 /* Pods-WMAddressPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMAddressPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-WMAddressPicker/Pods-WMAddressPicker.release.xcconfig"; sourceTree = "<group>"; };
+		832E6E71D3C6EFE13C89559A /* Pods_WMAddressPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WMAddressPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60627E30C26880824E32D02 /* Pods-WMAddressPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMAddressPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WMAddressPicker/Pods-WMAddressPicker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4037839E8BF70476C5C8FAE6 /* Pods_WMAddressPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				2DA6F01121D51319007DD298 /* WMAddressPicker */,
 				2DA6F01021D51319007DD298 /* Products */,
+				E3FE383161A2E46F29CF8D3F /* Pods */,
+				5516B3D91AEA9FD03AE7965F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +77,7 @@
 		2DA6F01121D51319007DD298 /* WMAddressPicker */ = {
 			isa = PBXGroup;
 			children = (
+				2DA6F02421D5146C007DD298 /* WMAddressPicker */,
 				2DA6F01221D51319007DD298 /* AppDelegate.swift */,
 				2DA6F01421D51319007DD298 /* ViewController.swift */,
 				2DA6F01621D51319007DD298 /* Main.storyboard */,
@@ -64,6 +88,38 @@
 			path = WMAddressPicker;
 			sourceTree = "<group>";
 		};
+		2DA6F02421D5146C007DD298 /* WMAddressPicker */ = {
+			isa = PBXGroup;
+			children = (
+				2DA6F03121D51B8A007DD298 /* address_selected@2x.png */,
+				2DA6F03221D51B8A007DD298 /* address_selected@3x.png */,
+				2DA6F02721D5146C007DD298 /* divisions.json */,
+				2DA6F02521D5146C007DD298 /* WMAddress.swift */,
+				2DA6F02821D5146C007DD298 /* WMAddressCell.swift */,
+				2DA6F02621D5146C007DD298 /* WMAddressCell.xib */,
+				2DA6F02921D5146C007DD298 /* WMAddressPicker.swift */,
+				2DA6F02F21D514D9007DD298 /* WMAddressPicker.xib */,
+			);
+			path = WMAddressPicker;
+			sourceTree = "<group>";
+		};
+		5516B3D91AEA9FD03AE7965F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				832E6E71D3C6EFE13C89559A /* Pods_WMAddressPicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3FE383161A2E46F29CF8D3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A60627E30C26880824E32D02 /* Pods-WMAddressPicker.debug.xcconfig */,
+				654ADE3F3B2E85D93CA2D761 /* Pods-WMAddressPicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DA6F02121D5131A007DD298 /* Build configuration list for PBXNativeTarget "WMAddressPicker" */;
 			buildPhases = (
+				7B85F4705CE6C25201E80671 /* [CP] Check Pods Manifest.lock */,
 				2DA6F00B21D51318007DD298 /* Sources */,
 				2DA6F00C21D51318007DD298 /* Frameworks */,
 				2DA6F00D21D51318007DD298 /* Resources */,
+				78C0B12642440D3B0F7A47F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,18 +182,75 @@
 			files = (
 				2DA6F01D21D5131A007DD298 /* LaunchScreen.storyboard in Resources */,
 				2DA6F01A21D5131A007DD298 /* Assets.xcassets in Resources */,
+				2DA6F03321D51B8A007DD298 /* address_selected@2x.png in Resources */,
+				2DA6F02C21D5146C007DD298 /* divisions.json in Resources */,
+				2DA6F03421D51B8A007DD298 /* address_selected@3x.png in Resources */,
+				2DA6F02B21D5146C007DD298 /* WMAddressCell.xib in Resources */,
+				2DA6F03021D514D9007DD298 /* WMAddressPicker.xib in Resources */,
 				2DA6F01821D51319007DD298 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78C0B12642440D3B0F7A47F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WMAddressPicker/Pods-WMAddressPicker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WMAddressPicker/Pods-WMAddressPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B85F4705CE6C25201E80671 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WMAddressPicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2DA6F00B21D51318007DD298 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DA6F02E21D5146C007DD298 /* WMAddressPicker.swift in Sources */,
+				2DA6F02A21D5146C007DD298 /* WMAddress.swift in Sources */,
 				2DA6F01521D51319007DD298 /* ViewController.swift in Sources */,
+				2DA6F02D21D5146C007DD298 /* WMAddressCell.swift in Sources */,
 				2DA6F01321D51319007DD298 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +395,7 @@
 		};
 		2DA6F02221D5131A007DD298 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60627E30C26880824E32D02 /* Pods-WMAddressPicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +413,7 @@
 		};
 		2DA6F02321D5131A007DD298 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654ADE3F3B2E85D93CA2D761 /* Pods-WMAddressPicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
